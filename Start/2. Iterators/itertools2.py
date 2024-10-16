@@ -14,11 +14,3 @@ import itertools
 s1 = "ABCDEFG"
 s2 = [1,2,3,4,5]
 s3 = ['$','%','@','&']
-
-
-# batched() takes an iterable and breaks it into chunks
-vals = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
-
-# batched can be used to reshape iterables
-original = [(0,1), (2,3), (4,5), (6,7)]

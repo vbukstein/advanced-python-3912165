@@ -21,13 +21,3 @@ s2 = [1,2,3,4,5]
 s3 = ['$','%','@','&']
 result = itertools.chain.from_iterable([s1,s2,s3])
 print(list(result))
-
-# batched() takes an iterable and breaks it into chunks
-vals = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-batches = list(itertools.batched(vals, 5))
-print(batches)
-
-# batched can be used to reshape iterables
-original = [(0,1), (2,3), (4,5), (6,7)]
-result = itertools.batched(itertools.chain.from_iterable(original), 4)
-print(list(result))
