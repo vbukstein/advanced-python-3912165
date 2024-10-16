@@ -1,5 +1,5 @@
 # Example file for Advanced Python by Joe Marini
-# Itertools: chain, chain.from_iterable, batched
+# Itertools: chain, chain.from_iterable
 
 import itertools
 
