@@ -6,8 +6,8 @@ days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 daysFr = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
 
 # use regular interation over the days
-for m in range(len(days)):
-    print(m+1, days[m])
+for d in days:
+    print(d)
 
 # use iter() to create an iterator over a collection
 # the next() function retrieves the next value from an iterator
