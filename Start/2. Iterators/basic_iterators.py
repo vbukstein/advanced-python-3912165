@@ -11,12 +11,6 @@ for m in range(len(days)):
 
 # use iter() to create an iterator over a collection
 # the next() function retrieves the next value from an iterator
-i = iter(days)
-print(next(i))  # Sun
-print(next(i))  # Mon
-print(next(i))  # Tue
+
 
 # iterate using a function and a sentinel
-with open("testfile.txt", "r") as fp:
-    for line in iter(fp.readline, ''):
-        print(line)

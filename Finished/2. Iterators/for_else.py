@@ -5,7 +5,6 @@ names = ["Jim", "Pam", "Creed", "Michael", "Dwight", "Oscar", "Kevin", "Phyllis"
 
 # The else clause on a for loop is only executed if the loop completes every iteration
 def findname(target):
-    # found = False
     for name in names:
         if name == target:
             print("Name found");
@@ -13,8 +12,6 @@ def findname(target):
     else:
         print("Name not found")
         return False
-
-    # return found
 
 print(findname("Creed"))
 print(findname("Tom"))
