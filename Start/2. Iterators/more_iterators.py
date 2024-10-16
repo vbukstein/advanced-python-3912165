@@ -1,8 +1,6 @@
 # Example file for Advanced Python by Joe Marini
 
 
-import itertools
-
 # define a list of days in English and French
 days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 daysFr = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]
