@@ -8,3 +8,5 @@ ctemps = [0, 12, 34, 100]
 
 
 # Merge two dictionaries with a comprehension
+team1 = {"Jones": 24, "Jameson": 18, "Smith": 58, "Burns": 7}
+team2 = {"White": 12, "Macke": 88, "Perce": 4}
