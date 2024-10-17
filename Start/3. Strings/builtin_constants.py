@@ -16,15 +16,16 @@ print(string.punctuation)
 # Define a test string
 testStr = "The quick brown fox jumps OVER the lazy dog."
 
-# TODO: use an iterator to see if a string contains any punctuation 
+# use an iterator to see if a string contains any punctuation 
 
 
-# TODO: generate a secure random password
+# generate a secure random password
 
 
-# TODO: Check the strength of a password
+# Check the strength of a password
 def check_password_strength(testPass):
-    pass
+  pass
 
-print(check_password_strength("MyTestPa$$123!"))
-print(check_password_strength("password"))
+# print(check_password_strength("MyTestPa$$123!"))
+# print(check_password_strength("password"))
+# print(check_password_strength("pa$$w0rd!"))
