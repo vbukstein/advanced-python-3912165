@@ -18,11 +18,12 @@ print(f"{val2}")
 print(f"{val3}")
 print(f"{val4}")
 
-# Specify a precision
+# Specify a precision and type
 print(f"{val1:.2f}")
 print(f"{val4:.2f}")
 
 # Use alignment and width and leading zeros
+# < is left align, > is right align, ^ is centered
 print(f"{val1:>10.2f}")
 print(f"{val2:>10.2f}")
 print(f"{val3:>10.2f}")

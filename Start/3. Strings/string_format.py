@@ -15,10 +15,11 @@ val4 = -280.7
 # print(f"{val3}")
 # print(f"{val4}")
 
-# Specify a precision
+# Specify a precision and type
 
 
 # Use alignment and width and leading zeros
+# < is left align, > is right align, ^ is centered
 
 
 # Use a grouping option and +/- signs
