@@ -46,5 +46,6 @@ width = 10
 precision = 2
 format_spec = f"{123.456:{width}.{precision}f}"
 print(format_spec)
-format_spec = "{val:{width}.{precision}f}".format(val=val2,width=10,precision=2)
+format_spec = "{val:{width}.{precision}f}".format(
+    val=val2, width=10, precision=2)
 print(format_spec)
