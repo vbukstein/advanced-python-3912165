@@ -8,16 +8,16 @@ val1 = 123456.78
 # Set the locale to the user's default.
 locale.setlocale(locale.LC_ALL, '')
 
-# TODO: Retrieve the current locale and some information
+# Retrieve the current locale and some information
 
 
-# TODO: Use the localeconv() function to see the settings for the locale
+# Use the localeconv() function to see the settings for the locale
 
 
-# TODO: Format the number using the locale
+# Format the number using the locale
 
 
-# TODO: Format the number for a specific locale
+# Format the number for a specific locale
 
 
-# TODO: Format the number as a currency string.
+# Format the number as a currency string.
